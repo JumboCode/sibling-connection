@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    padding-right: 50px;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding-right: 40px;
+    padding-left: 75px;
+}
+
+.flex-horizontal {
+    display: flex;
+    align-items: stretch;
+    padding-top: 45px;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+hr { 
+    width: 110px;
+    margin-left: 0px;
+    border-width: 0px;
+    height: 5px;
+    background-color:#FF9D76;
+}
+
+a {
+   color: #FF9D76; 
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.orange {
+    color: #FF9D76;
+}
