@@ -1,0 +1,50 @@
+p {
+	font-family: Roboto;
+}
+
+h1 {
+	font-family: Rubik;
+}
+
+article {
+	padding: 3%;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-self: flex-start;
+	margin-right: 9%;
+	margin-left: 4%;
+	margin-bottom: 4%;
+	width: 150%;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	flex-wrap: wrap;
+	padding-right: 4%;
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.overlay {
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+}
