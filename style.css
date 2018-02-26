@@ -39,6 +39,9 @@ body {
 
 .hamburger {
 	padding: 1rem 1rem 1rem 1rem;
+	width: 20px;
+	height: 20px;
+	padding-top: 18px;
 }
 
 .hamburger:hover {
