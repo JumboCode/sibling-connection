@@ -53,7 +53,7 @@ $( document ).ready(function() {
 		$('#vol-peach').stop().animate({
 			opacity: 1
 		}, 200);
-		$('#vol-txt').stop().animate({
+		$('#vol-txt').animate({
 			color: "#FF9D76"
 		}, 190);
 	}, function() {
@@ -63,7 +63,7 @@ $( document ).ready(function() {
 		$('#vol-black').stop().animate({
 			opacity: 1
 		}, 200);
-		$('#vol-txt').stop().animate({
+		$('#vol-txt').animate({
 			color: "#000000"
 		}, 190);
 	});
