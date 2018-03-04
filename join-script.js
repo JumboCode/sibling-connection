@@ -3,13 +3,15 @@ $( document ).ready(function() {
 	$('.donate').hover(function() {
 		$('#donate-black').stop().animate({
 			opacity: 0
-		}, 200);
+		}, 50);
 		$('#donate-peach').stop().animate({
 			opacity: 1
-		}, 200);
+		}, 50);
 		$('#donate-txt').stop().animate({
 			color: "#FF9D76"
 		}, 190);
+		$('#donate-peach').toggleClass('hvr-bob');
+		$('#donate-txt').css("padding-top", "14px");
 	}, function() {
 		$('#donate-peach').stop().animate({
 			opacity: 0
@@ -20,19 +22,23 @@ $( document ).ready(function() {
 		$('#donate-txt').stop().animate({
 			color: "#000000"
 		}, 190);
+		$('#donate-peach').toggleClass('hvr-bob');
+		$('#donate-txt').css("padding-top", "10px");
 	});
 
 	/* Social Worker Icons */
 	$('.social-workers').hover(function() {
 		$('#social-black').stop().animate({
 			opacity: 0
-		}, 200);
+		}, 50);
 		$('#social-peach').stop().animate({
 			opacity: 1
-		}, 200);
+		}, 50);
 		$('#social-txt').stop().animate({
 			color: "#FF9D76"
 		}, 190);
+		$('#social-peach').toggleClass('hvr-bob');
+		$('#social-txt').css("padding-top", "14px");
 	}, function() {
 		$('#social-peach').stop().animate({
 			opacity: 0
@@ -43,27 +49,33 @@ $( document ).ready(function() {
 		$('#social-txt').stop().animate({
 			color: "#000000"
 		}, 190);
+		$('#social-peach').toggleClass('hvr-bob');
+		$('#social-txt').css("padding-top", "10px");
 	});
 
 	/* Volunteer Icons */
 	$('.volunteer').hover(function() {
 		$('#vol-black').stop().animate({
 			opacity: 0
-		}, 200);
+		}, 50);
 		$('#vol-peach').stop().animate({
 			opacity: 1
-		}, 200);
-		$('#vol-txt').animate({
+		}, 50);
+		$('#vol-peach').toggleClass('hvr-bob');
+		$('#vol-txt').css("padding-top", "14px");
+		$('#vol-txt').stop().animate({
 			color: "#FF9D76"
 		}, 190);
 	}, function() {
 		$('#vol-peach').stop().animate({
 			opacity: 0
 		}, 200);
+		$('#vol-peach').toggleClass('hvr-bob');
+		$('#vol-txt').css("padding-top", "10px");
 		$('#vol-black').stop().animate({
 			opacity: 1
 		}, 200);
-		$('#vol-txt').animate({
+		$('#vol-txt').stop().animate({
 			color: "#000000"
 		}, 190);
 	});

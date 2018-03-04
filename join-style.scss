@@ -1,0 +1,107 @@
+$boldFont: 'Rubik', sans-serif;
+$thinFont: 'Roboto', sans-serif;
+$peach: #ff9d76;
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	margin: 1vw;
+	justify-content: flex-end;
+}
+
+.menu-icon {
+	align-self: center;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	width: 20px;
+	height: 100%;
+}
+
+.menu-word {
+	font-family: $boldFont
+}
+
+.short-bar {
+	fill: $peach;
+	width: 12vw;
+	height: 1.5vh;
+}
+
+.canvas {
+	margin-top: -2vh;
+	width: 12vw;
+	height: 1.5vh;
+}
+
+.page-content {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.lg-quote {
+	font-family: $boldFont;
+	font-size: 7vh;
+}
+
+.content-text {
+	padding-top: 2vh;
+	font-family: $thinFont;
+	text-align: center;
+}
+
+#join-txt-1 {
+	padding-top: 5vh;
+}
+
+.action-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 8vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+.join-icon {
+	width: 150px;
+}
+.donate {
+	width: 150px;
+}
+.social-workers {
+	text-align: center;
+}
+.social-workers img {
+	margin: auto;
+}
+.icon-black {
+	opacity: 1;
+	position: absolute;
+}
+
+.icon-peach {
+	opacity: 0;
+	position: relative;
+}
+
+.join-icon-text {
+	font-family: $boldFont;
+	text-align: center;
+	padding-top: 2vh;
+}
+
+@media screen and (max-width: 700px) {
+	.action-icons {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.donate, .volunteer, .social-workers {
+		margin: auto;
+		padding-top: 5vh;
+	}
+
+
+}

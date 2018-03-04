@@ -63,9 +63,11 @@
 .join-icon {
 	width: 150px;
 }
+
 .donate {
 	width: 150px;
 }
+
 .social-workers {
 	text-align: center;
 }
@@ -85,10 +87,18 @@
 .join-icon-text {
 	font-family: 'Rubik', sans-serif;
 	text-align: center;
-	padding-top: 2vh;
+	padding-top: 10px;
 }
 
 @media screen and (max-width: 700px) {
+
+	.page-content {
+		align-items: flex-start;
+	}
+	.join-icon-text {
+		margin-top: 0;
+		padding-top: 3vh;
+	}
 	.action-icons {
 		flex-direction: column;
 		text-align: center;
@@ -99,5 +109,14 @@
 		padding-top: 5vh;
 	}
 
+	.canvas {
+		margin-top: -3vh;
+		width: 120px;
+		height: 10px;
+	}
 
+	.short-bar {
+		width: 120px;
+		height: 10px;
+	}
 }
