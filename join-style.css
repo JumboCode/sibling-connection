@@ -3,6 +3,7 @@
 	flex-direction: row;
 	margin: 1vw;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .menu-icon {
@@ -89,6 +90,39 @@
 	text-align: center;
 	padding-top: 10px;
 }
+/** Menu icon **/
+.container {
+	margin-left: 10px;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 15px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
+    transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px) ;
+    transform: rotate(45deg) translate(-5px, -5px) ;
+}
+
+
+
 
 @media screen and (max-width: 700px) {
 

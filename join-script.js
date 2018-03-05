@@ -1,4 +1,12 @@
 $( document ).ready(function() {
+	$('#menu-icon').click(function() {
+		$(this).toggleClass("change");
+	});
+
+	$('.menu-word').click(function() {
+		$('#menu-icon').toggleClass("change");
+	})
+
 	/* Donate Icons */
 	$('.donate').hover(function() {
 		$('#donate-black').stop().animate({
