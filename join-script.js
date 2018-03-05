@@ -8,7 +8,7 @@ $( document ).ready(function() {
 			opacity: 1
 		}, 50);
 		$('#donate-txt').stop().animate({
-			color: "#FF9D76"
+			color: "#557CF6"
 		}, 190);
 		$('#donate-peach').toggleClass('hvr-bob');
 		$('#donate-txt').css("padding-top", "14px");
@@ -35,7 +35,7 @@ $( document ).ready(function() {
 			opacity: 1
 		}, 50);
 		$('#social-txt').stop().animate({
-			color: "#FF9D76"
+			color: "#557CF6"
 		}, 190);
 		$('#social-peach').toggleClass('hvr-bob');
 		$('#social-txt').css("padding-top", "14px");
@@ -64,7 +64,7 @@ $( document ).ready(function() {
 		$('#vol-peach').toggleClass('hvr-bob');
 		$('#vol-txt').css("padding-top", "14px");
 		$('#vol-txt').stop().animate({
-			color: "#FF9D76"
+			color: "#557CF6"
 		}, 190);
 	}, function() {
 		$('#vol-peach').stop().animate({
