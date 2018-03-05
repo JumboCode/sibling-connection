@@ -4,12 +4,14 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik">
 	<nav>
-		<!--Hamburger menu??-->
+		<h1 class="menu">Menu</h1>
+		<img class="hamburger" src="menu.svg">
 	</nav>
 	<body>
 		<article class="page">
 			<div class="title">
-				<h1>Our Programs</h1>
+				<h1 class="text">Our Programs</h1>
+				<div class="bar"></div>
 			</div>
 			<section class="content">
 				<p>Sibling Connections offers two main programs for reuniting siblings who have been 
@@ -21,13 +23,25 @@
 					contact us and we will get back to you shortly.</p> 
 			</section>
 		</article>
-		<article class="images">
-			<img class="overlay" src="program1.png">
-				<!--<div class="overlay-text">
-					<h2>Camp To Belong Massachusetts</h2>
-				</div>-->
-			<img class="overlay" src="program2.png">
-			<img class="overlay" src="program3.png">
-		</article>
+		<div id="pictures">
+			<div class="card">
+				<img class="image" src="program1.png">
+				<div class="overlay" href="">
+					<h1 class="overlay-text">Camp To Belong Massachusetts</h1>
+				</div>
+			</div>
+			<div class="card">
+				<img class="image" src="program2.png">
+				<div class="overlay" href="">
+					<h1 class="overlay-text">Camp To Belong Massachusetts</h1>
+				</div>			
+			</div>
+			<div class="card">
+				<img class="image" src="program3.png">
+				<div class="overlay" href="">
+					<h1 class="overlay-text">Camp To Belong Massachusetts</h1>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
