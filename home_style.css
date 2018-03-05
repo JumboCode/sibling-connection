@@ -1,21 +1,40 @@
 body {
+	
+}
+.menu-overview{
+	background-image: url("Assets/Pictures/menu-kids.png");
+	background-color: #557CF6;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.page-content{
+	font-family: 'Rubik';
+	font-weight: bold;
+	color: white;
+	font-size: 64px;
+	letter-spacing: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: 
+
+
+}
+.home-back{
 	background-image: url("Assets/Pictures/home-kids.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right top;
-    background-attachment: fixed;
-}
-
-.background{
-
+	background-attachment: fixed;
+	background-position: left center;
+  
 }
 .header{
 	width: 100vw;
-	height: 90vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: right;
 	flex-direction: column;
+	padding-left: 10%;
 	flex-wrap: wrap;
 }
 .title{
@@ -23,13 +42,26 @@ body {
 	font-weight: bold;
 	font-size: 144px;
 	color: #FFFFFF;
-	letter-spacing: 0;
 	line-height: 144px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
+.button{
+	background-color: #557CF6;
+	font-family: 'Rubik';
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 40px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+}
 .navigation{
 	font-family: 'Rubik', sans-serif;
 	display: flex;
