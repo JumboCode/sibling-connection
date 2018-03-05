@@ -12,6 +12,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color: black;
     font-size: 40px;
+    height: 102px;
 }
 
 .column {
@@ -38,11 +39,11 @@ hr {
     margin-left: 0px;
     border-width: 0px;
     height: 5px;
-    background-color:#FF9D76;
+    background-color: #557CF6;
 }
 
 a {
-   color: #FF9D76; 
+   color: #557CF6; 
 }
 
 .rubik {
@@ -50,6 +51,6 @@ a {
     color: black;
 }
 
-.orange {
-    color: #FF9D76;
+.blue {
+    color: #557CF6;
 }
