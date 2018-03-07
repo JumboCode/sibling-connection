@@ -90,44 +90,64 @@ nav {
 	padding-bottom: 77px;
 }
 
-.card {
-	display: flex; 
-	justify-content: center; 
-	padding: 13px;
-	height: 317px;
-	width: 397px;
+.overlay-text {
+	text-align: center;
+	color: white;
+	opacity: 0;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 136px;
+	padding-bottom: 136px;
 }
 
-.overlay {
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	height: 317px;
-	width: 397px;
-	opacity: 0.5;
-	z-index: 1;
-}
-
-.overlay:hover {
+.overlay-text:hover {
 	opacity: 1;
 }
 
-.image {
-	display: flex;
+.card1 {
+	display: flex; 
 	justify-content: center;
-	position: absolute;
+	align-items: center; 
+	background-image: url("program1.png"); 
+	object-fit: cover;
+	margin: 12px;
 	height: 317px;
-	width: 397px;
-	z-index: 0;
+	width: 327px;
 }
 
-.overlay-text {
-	display: flex;
+.card1:hover {
+	background-blend-mode: multiply;
+	background-color: #557CF6;
+}
+
+.card2 {
+	display: flex; 
 	justify-content: center;
-	align-self: center;
-	height: 86px;
-	width: 283px;
-	z-index: 2;
-	color: white;
+	align-items: center; 
+	background-image: url("program2.png"); 
+	object-fit: cover;
+	margin: 12px;
+	height: 317px;
+	width: 327px;
+}
+
+.card2:hover {
+	background-blend-mode: multiply;
+	background-color: #557CF6;
+}
+
+.card3 {
+	display: flex; 
+	justify-content: center;
+	align-items: center; 
+	background-image: url("program3.png"); 
+	object-fit: cover;
+	margin: 12px;
+	height: 317px;
+	width: 327px;
+}
+
+.card3:hover {
+	background-blend-mode: multiply;
+	background-color: #557CF6;
 }
