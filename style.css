@@ -6,6 +6,10 @@ h1 {
 	font-family: Rubik;
 }
 
+h2 {
+	font-family: Roboto;
+}
+
 article {
 	padding-right: 100px;
 	padding-left: 100px;
@@ -150,4 +154,32 @@ nav {
 .card3:hover {
 	background-blend-mode: multiply;
 	background-color: #557CF6;
+}
+
+.name {
+	text-align: left; 
+	color: #557CF6;
+	font-weight: bold;
+	font-size: 64px;
+	height: 76px;
+	width: 458px;
+	margin-bottom: 0px;
+}
+
+.subtitle {
+	text-align: left; 
+	font-size: 36px;
+	margin-top: 0px;
+}
+
+.description {
+	text-align: left;
+	height: 147px;
+	width: 642px;
+}
+
+.image {
+	padding-right: 0px;
+	height: 498px;
+	width: 498px;
 }
