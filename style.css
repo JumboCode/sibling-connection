@@ -3,6 +3,17 @@ p {
 	margin: 15px 0 15px 0;
 }
 
+p.italic {
+	padding-top: 10px;
+	font-style: italic;
+	width: 25vw;
+}
+
+span.blue-text {
+	font-family: 'Rubik', sans-serif;
+	color: #557CF6;
+}
+
 h1 {
 	font-family: 'Rubik', sans-serif;
 	font-size: 45px;
@@ -13,11 +24,13 @@ h2 {
 	font-family: 'Rubik', sans-serif;
 	font-size: 32px;
 	margin: 10px 0 15px 0;
-	color: #FF9D76;
+	color: #557CF6;
 }
 
 h3 {
 	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -30,36 +43,28 @@ body {
 }
 
 .menu-bar {
+	width: 100vw;
+	height: 10vh;
 	background-color: #FFFFFF;
 	display: flex;
 	justify-content: flex-end;
-	padding-top: 10px;
-	padding-right: 13px;
+	padding-top: 40px;
 }
 
 .hamburger {
-	padding: 1rem 1rem 1rem 1rem;
-	width: 20px;
-	height: 20px;
-	padding-top: 18px;
+	padding: 0 15px 0 15px;
+	width: 25px;
+	height: 21px;
 }
 
 .hamburger:hover {
 	cursor: pointer;
 }
 
-.hamburger-line {
-	width: 23px;
-	height: 4px;
-	background-color: black;
-	margin: 3.5px 0;
-	border-radius: 1.5px;
-}
-
-.orange-bar {
+.blue-bar {
 	width: 8rem;
 	height: 8px;
-	background-color: #FF9D76;
+	background-color: #557CF6;
 	margin: 0px 0 25px 0;
 }
 
@@ -70,28 +75,25 @@ body {
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-	/*
-	background: url("assets/Events.png") no-repeat center center fixed;
-	background-size: cover;
-	*/
 }
 
-.text-container {
+.content-container {
 	display: flex;
 	justify-content: space-between;
 	width: 100vw;
-	height: 90vh;
+	height: 80vh;
 }
 
-.left-section {
-	width: 45%;
+.left-section-events {
+	width: 45vw;
 	display: flex;
 	flex-direction: column;
 	margin: 0px 30px 30px 90px;
 }
 
-.right-section {
-	width:55%;
+.right-section-events {
+	width: 55vw;
+	display: flex;
 	align-self: flex-end;
 }
 
@@ -100,7 +102,7 @@ body {
 	margin: 40px 0 40px 0;
 }
 
-.events-button {
+.button {
 	background-color: white;
 	border: solid;
 	border-width: 2px;
@@ -114,8 +116,54 @@ body {
 	cursor: pointer;
 	margin: 10px 30px 5px 0px;
 }
-.events-button:hover {
-	background-color: #FF9D76;
-	border-color: #FF9D76;
+.button:hover {
+	background-color: #557CF6;
+	border-color: #557CF6;
 	color: white;
+}
+
+.volunteer-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.volunteer-title {
+	padding: 0 0 0 90px;
+}
+
+.volunteer-contact {
+	margin: 30px 15vw 30px 15vw;
+	display: inline;
+	text
+}
+
+.right-section-volunteer {
+	width: 55vw;
+	display: flex;
+	flex-direction: column;
+	margin: 0 100px 0 100px;
+}
+
+.left-section-volunteer {
+	width: 45vw;
+	margin: 10px 0 0 90px;
+}
+
+.volunteer-links {
+	display: flex;
+	margin: 20px 0 20px 0;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
