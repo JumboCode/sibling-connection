@@ -30,7 +30,7 @@ h2 {
 h3 {
 	font-family: 'Rubik', sans-serif;
 	margin: 0;
-	padding: 0;
+	padding: 40px 0 0 0;
 }
 
 img {
@@ -44,15 +44,14 @@ body {
 
 .menu-bar {
 	width: 100vw;
-	height: 10vh;
+	height: 102px;
 	background-color: #FFFFFF;
 	display: flex;
 	justify-content: flex-end;
-	padding-top: 40px;
 }
 
 .hamburger {
-	padding: 0 15px 0 15px;
+	padding: 40px 15px 0 15px;
 	width: 25px;
 	height: 21px;
 }
@@ -116,6 +115,7 @@ body {
 	cursor: pointer;
 	margin: 10px 30px 5px 0px;
 }
+
 .button:hover {
 	background-color: #557CF6;
 	border-color: #557CF6;
@@ -125,6 +125,7 @@ body {
 .volunteer-container {
 	display: flex;
 	flex-direction: column;
+	height: 95vh;
 }
 
 .volunteer-title {
@@ -134,7 +135,6 @@ body {
 .volunteer-contact {
 	margin: 30px 15vw 30px 15vw;
 	display: inline;
-	text
 }
 
 .right-section-volunteer {
