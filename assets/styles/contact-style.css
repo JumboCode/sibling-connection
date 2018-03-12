@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-bottom: 75px;
+}
+
+a {
+   color: #557CF6; 
+}
+
+hr { 
+    width: 200px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    border-width: 0px;
+    height: 7px;
+    background-color: #557CF6;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu {
+    padding: 0 15px 0 15px;
+}
+
+.header {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 40px;
+    height: 30px;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 75px;
+}
+
+.flex-horizontal {
+    display: flex;
+    align-items: stretch;
+    padding-top: 45px;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.line:focus {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.blue {
+    color: #557CF6;
+}
+
+.donate {
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.donatecolumn1 {
+    float: left;
+    width: 30%;
+    margin-left: 150px;
+}
+
+.donatecolumn2 {
+    float: left;
+    width: 30%;
+    margin-left: 50px; 
+    align-content: center;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+}
+
+.lady {
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
