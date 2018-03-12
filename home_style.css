@@ -1,23 +1,45 @@
 body {
-	
+	margin: 0px;
+	padding: 0px;
 }
 .menu-overview{
 	background-image: url("Assets/Pictures/menu-kids.png");
+	background-position: left bottom;
 	background-color: #557CF6;
-	background-size: cover;
+	width: 100vw;
+	height: 100vh;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .page-content{
 	font-family: 'Rubik';
 	font-weight: bold;
 	color: white;
 	font-size: 64px;
-	letter-spacing: 0;
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+
+}
+.menu-content{
+	font-family: 'Rubik';
+	font-weight: bold;
+	color: white;
+	font-size: 64px;
+	padding-top: 2%;
 	display: flex;
 	justify-content: flex-end;
-	align-items: 
 
+}
 
+.menu-content a:link, .menu-content a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.menu-content a:hover, .menu-content a:active{
+	color: blue;
+	text-decoration: none;
 }
 .home-back{
 	background-image: url("Assets/Pictures/home-kids.png");
