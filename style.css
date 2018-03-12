@@ -82,6 +82,7 @@ nav {
 
 .page {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	padding-bottom: 47px;
 }
@@ -156,8 +157,18 @@ nav {
 	background-color: #557CF6;
 }
 
+.person {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
 .name {
-	text-align: left; 
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 	color: #557CF6;
 	font-weight: bold;
 	font-size: 64px;
@@ -166,20 +177,31 @@ nav {
 	margin-bottom: 0px;
 }
 
-.subtitle {
-	text-align: left; 
+.role {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 	font-size: 36px;
 	margin-top: 0px;
 }
 
 .description {
-	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap; 
 	height: 147px;
-	width: 642px;
+	width: 542px;
 }
 
-.image {
+#bio-pic {
 	padding-right: 0px;
-	height: 498px;
-	width: 498px;
+	height: 450px;
+	width: 450px;
+}
+
+.bio-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 30px;
 }
