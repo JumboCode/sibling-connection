@@ -97,6 +97,7 @@
 }
 
 .bar1, .bar2, .bar3 {
+	border-radius: 1px;
     width: 15px;
     height: 3px;
     background-color: #333;
@@ -110,7 +111,7 @@
     transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
 }
 
-/* Fade out the second bar */
+/* Fade out second bar */
 .change .bar2 {
     opacity: 0;
 }

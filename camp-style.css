@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+
+/*** Menu Icon ***/
+
+.navigation {
+    
+    
+    
+}
+
+.nav-elts {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    margin-right: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-icon {
+    align-self: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 20px;
+    height: 100%;
+}
+
+.menu-word {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    border-radius: 1px;
+    width: 15px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
+    transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
+}
+
+/* Fade out second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px) ;
+    transform: rotate(45deg) translate(-5px, -5px) ;
+}
+
+
+/* Dual overlay */
+.dual-overlay {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.dual-solid {
+    margin: 0;
+    background-color: #557CF6;
+    height: 100vh;
+    width: 50vw;
+}
+
+.dual-image {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("assets/images/program2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dual-text {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 20vh;
+    font-size: 5em;
+    text-align: center;
+}
+.dual-icon {
+    width: 100%;
+}
+.dual-arrow {
+    width: 50px;
+    margin-top: 5vh;
+    margin-left: 46%;
+    
+    color: white;
+}
+
+.navigation {
+    position: fixed;
+    height: 14vh;
+    margin: 0;
+    box-shadow: 0 1px 7px #878787;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.program-details {
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+.program-header {
+    margin-right: 20vw;
+    font-family: "Rubik", sans-serif;
+    color: #557CF6;
+    font-size: 2.5em;
+    margin-top: -3vh;
+}
+p {
+    font-size: 0.95em;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-text {
+    display: flex;
+    flex-flow: row;
+}
+
+.btn-txt {
+    margin-left: 2vw;
+}
+
+.btn {
+    border: 1px solid black;
+    width: 180px;
+    height: 60px;
+    /*color: white;*/
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.page-split-large {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.left-split {
+    padding: 3vw;
+    padding-left: 0;
+    width: 175%;
+}
+.right-split {
+    padding: 3vw;
+    margin-right: 10vw;
+    width: 75%;
+}
+.list-heading {
+    color: #557CF6;
+    font-family: "Rubik", sans-serif;
+}
