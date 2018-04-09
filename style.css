@@ -1,3 +1,8 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
 p {
 	font-family: Roboto;
 }
@@ -26,6 +31,7 @@ nav {
 	top: 0;
 	position: sticky;
 	z-index: 2;
+	width: 100%;
 }
 
 .menu {
@@ -204,4 +210,58 @@ nav {
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-left: 30px;
+}
+
+.container {
+	display: flex; 
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap; 
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.container h1 {
+	font-size: 48px;
+}
+
+.underline {
+	width: 334px;
+	height: 5px;
+	background-color: #557CF6;	
+}
+
+.textbox {
+	margin-left: 20px;
+	height: 100%;
+	width: 1125px;
+}
+
+.textbox h1 {
+	font-size: 24px;
+	color: #557CF6;
+}
+
+.section {
+	display: flex; 
+	margin-top: 60px;
+	width: 100%;
+
+}
+
+.number { 
+	text-align: center;
+	line-height: 75px;
+	background-color: #557CF6;
+	color: #ffffff; 
+	margin-right: 20px;
+	height: 75px;
+	width: 100px;
+}
+
+.blue {
+	color: #557CF6;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 }
