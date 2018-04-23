@@ -199,14 +199,16 @@ nav {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap; 
-	height: 147px;
-	width: 542px;
+	max-width: 542px;
 }
 
 #bio-pic {
+	display: flex; 
 	padding-right: 0px;
-	height: 450px;
-	width: 450px;
+	height: 75%;
+	width: 35%;
+	min-height: 300px; 
+	min-width: 300px;
 }
 
 .bio-container {
