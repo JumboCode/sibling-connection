@@ -135,7 +135,7 @@ body {
 
 .right-section-events {
     width: 55vw;
-    background-image: url("./assets/purple_calendar.png");
+    background-image: url("assets-kn_events/purple_calendar.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
