@@ -3,7 +3,7 @@ body {
 	padding: 0px;
 }
 .menu-overview{
-	background-image: url("Assets/Pictures/menu-kids.png");
+	background-image: url("Assets-branch-md_homepage/Pictures/menu-kids.png");
 	background-position: left bottom;
 	background-color: #557CF6;
 	width: 100vw;
@@ -42,7 +42,7 @@ body {
 	text-decoration: none;
 }
 .home-back{
-	background-image: url("Assets/Pictures/home-kids.png");
+	background-image: url("Assets-branch-md_homepage/Pictures/home-kids.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
