@@ -1,0 +1,65 @@
+body {
+	background-image: url("Assets-branch-md_homepage/Pictures/menu-kids.png");
+	background-color: #557CF6;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	
+  
+}
+
+.header{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: right;
+	flex-direction: column;
+	padding-left: 10%;
+	flex-wrap: wrap;
+}
+.title{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 144px;
+	color: #FFFFFF;
+	line-height: 144px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.button{
+	background-color: #557CF6;
+	font-family: 'Rubik';
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 40px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.navigation{
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1rem;
+	color: white;
+
+}
+.hamburger {
+	padding: 1rem 1rem 1rem 1rem;
+	color: white;
+}
+
+.hamburger:hover {
+	cursor: pointer;
+	color: white;
+}
+.icon{
+	height: 21px;
+	width: 25px;
+}
