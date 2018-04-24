@@ -2,58 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d400a4db-3a3e-4c4a-8167-44847c51811d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/004-interface-1.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/004-interface-1.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/006-donation.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/006-donation.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/006-interface.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/006-interface.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/_DS_Store" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/_DS_Store" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/arrow.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/arrow.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/people.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/people.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/volunteer.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/volunteer.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/white-close.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/white-close.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/white-menu.svg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Icons/white-menu.svg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/_DS_Store" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/_DS_Store" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/about-kids.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/about-kids.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/calendar.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/calendar.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/home-kids.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/home-kids.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/menu-kids.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/menu-kids.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/program1.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/program1.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/program2.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/program2.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/program3.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Pictures/program3.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/_DS_Store" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/_DS_Store" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/assets/Bitmap.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/assets/Bitmap.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/assets/Screen Shot 2018-02-16 at 12.23.23 AM.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/assets/Screen Shot 2018-02-16 at 12.23.23 AM.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/index.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/index.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-about-us-2.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us-2.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-about-us-3.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us-3.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-about-us-4.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us-4.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-about-us-5.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us-5.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-about-us.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-contact.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-contact.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-events.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-events.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-home.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-home.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-join.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-join.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-menu.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-menu.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/links/page-1-programs.html" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-programs.html" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-about-us-2.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-about-us-2.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-about-us-3.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-about-us-3.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-about-us-4.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-about-us-4.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-about-us-5.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-about-us-5.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-about-us.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-about-us.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-contact.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-contact.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-events.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-events.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-home.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-home.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-join.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-join.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-menu.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-menu.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Specs/preview/page-1-programs.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Specs/preview/page-1-programs.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Style Guide.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Style Guide.png" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unedited Pictures/brandon-morgan-17706.jpg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Unedited Pictures/brandon-morgan-17706.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unedited Pictures/brothers-2107264_1280.jpg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Unedited Pictures/brothers-2107264_1280.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unedited Pictures/jelleke-vanooteghem-405592.jpg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Unedited Pictures/jelleke-vanooteghem-405592.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DS_Store" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/_DS_Store" />
-      <change beforePath="$PROJECT_DIR$/home_style.css" afterPath="$PROJECT_DIR$/home_style.css" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" afterPath="$PROJECT_DIR$/homepage.html" />
-      <change beforePath="$PROJECT_DIR$/menu.css" afterPath="$PROJECT_DIR$/menu.css" />
-      <change beforePath="$PROJECT_DIR$/menu.html" afterPath="$PROJECT_DIR$/menu.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets-branch-md_homepage/_DS_Store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Home.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/Home.png" />
+      <change beforePath="$PROJECT_DIR$/home-kids.png" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/home-kids.png" />
+      <change beforePath="$PROJECT_DIR$/home_style.css" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/home_style.css" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" afterPath="$PROJECT_DIR$/src/pages/homepage.html" />
+      <change beforePath="$PROJECT_DIR$/menu.css" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/menu.css" />
+      <change beforePath="$PROJECT_DIR$/menu.html" afterPath="$PROJECT_DIR$/src/pages/menu.html" />
+      <change beforePath="$PROJECT_DIR$/siblings.jpg" afterPath="$PROJECT_DIR$/Assets-branch-md_homepage/siblings.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +23,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -89,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/pages/bios/Amanda-Neas.html" />
         <option value="$PROJECT_DIR$/src/pages/bios/Doug-McClure.html" />
         <option value="$PROJECT_DIR$/src/pages/bios/Eliza-Kenney.html" />
+        <option value="$PROJECT_DIR$/src/pages/homepage.html" />
       </list>
     </option>
   </component>
@@ -143,10 +112,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/Assets-branch-md_homepage" />
       <recent name="$PROJECT_DIR$/src/pages/bios" />
       <recent name="$PROJECT_DIR$/src/scripts" />
       <recent name="$PROJECT_DIR$/src/people" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,12 +143,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524602142087</updated>
-      <workItem from="1524602144115" duration="3053000" />
+      <workItem from="1524602144115" duration="3498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3053000" />
+    <option name="totallyTimeSpent" value="3498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1299" height="753" extended-state="0" />
@@ -235,7 +204,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/hover/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -351,6 +320,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets-branch-md_homepage/Style Guide.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets-branch-md_homepage/Specs/links/page-1-about-us-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
