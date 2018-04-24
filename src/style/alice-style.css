@@ -113,7 +113,7 @@ nav {
 	display: flex; 
 	justify-content: center;
 	align-items: center; 
-	background-image: url("program1.png"); 
+	background-image: url("../../assets/program/program1.png");
 	object-fit: cover;
 	margin: 12px;
 	height: 317px;
@@ -129,7 +129,7 @@ nav {
 	display: flex; 
 	justify-content: center;
 	align-items: center; 
-	background-image: url("program2.png"); 
+	background-image: url("../../assets/program/program2.png");
 	object-fit: cover;
 	margin: 12px;
 	height: 317px;
@@ -145,7 +145,7 @@ nav {
 	display: flex; 
 	justify-content: center;
 	align-items: center; 
-	background-image: url("program3.png"); 
+	background-image: url("../../assets/program/program3.png");
 	object-fit: cover;
 	margin: 12px;
 	height: 317px;
