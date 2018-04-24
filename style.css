@@ -1,0 +1,337 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5em 0 0.5em 0;
+}
+
+p.italic {
+    padding-top: 0.5em;
+    font-style: italic;
+    width: 23vw;
+}
+
+span.blue-text {
+    font-family: 'Rubik', sans-serif;
+    color: #557CF6;
+}
+
+h1 { /* Page Title */
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.7em;
+    margin: 0.2em 0 0.2em 0;
+}
+
+h2 { /* Event Name */
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    margin: 0.3em 0 0.6em 0;
+    color: #557CF6;
+}
+
+h3 { /* Menu */ 
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 2.2em 0 0 0;
+}
+
+h4 { /* Sponsor Distinction */
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    margin: 0.3em 0 0.6em 0;
+    color: #557CF6;
+    padding-top: 0.4em;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5em 0 0.5em 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+.menu-bar {
+    height: 90px;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger {
+    padding: 2.5em 0.8em 0 0.8em;
+    width: 25px;
+    height: 21px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.blue-bar {
+    width: 8rem;
+    height: 8px;
+    background-color: #557CF6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+}
+
+.button {
+    background-color: white;
+    border: solid;
+    border-width: 0.1em;
+    color: black;
+    padding: 1em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    margin: 0 1em 0 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    background-color: #557CF6;
+    border-color: #557CF6;
+    color: white;
+}
+
+/* EVENTS */
+
+.events-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 85vh;
+}
+
+.left-section-events {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em 2em 0 6vw;
+}
+
+.right-section-events {
+    width: 55vw;
+    background-image: url("assets-kn_events/purple_calendar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.events-info {
+    padding-top: 2em;
+}
+
+.events-links {
+    display: flex;
+    margin: 3em 0 3em 0;
+}
+
+#all-events-button {
+    margin-top: 40%;
+    margin-left: 40%;
+}
+
+#all-events-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 950px) {
+    .events-content {
+        display: block;
+    }
+    .left-section-events {
+        padding: 0;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    .right-section-events {
+        width: 100%;
+    }
+    .events-links {
+        display: block;
+    }
+    #events-button {
+        margin-bottom: 1em;
+        display: block;
+        padding: 0.4em auto;
+    }
+    #all-events-button {
+        padding-bottom: 1em;
+    }
+}
+
+/* VOLUNTEER */
+
+.volunteer-title {
+    margin-left: 6vw;
+}
+
+.volunteer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-section-volunteer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 6vh 6vw 1em 3vw;
+}
+
+.left-section-volunteer {
+    width: 50vw;
+    margin: 2em 3vw 1em 6vw;
+}
+
+.volunteer-contact {
+    margin: 2em 15vw 2em 15vw;
+    display: inline;
+}
+
+.volunteer-links {
+    display: flex;
+    margin: 1.5em 0 1.5em 0;
+    height: 4em;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 58%;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .volunteer-title {
+        margin-left: 10vw;
+    }
+    .volunteer-content {
+        display: block;
+        height: 200vh;
+    }
+    .right-section-volunteer {
+        width: 80vw;
+        margin: 2em 0 2em 10vw;
+    }
+    .left-section-volunteer {
+        width: 80vw;
+        margin: 2em 0 2em 10vw;
+    }
+    #volunteer-italic {
+        padding-top: 1em;
+        width: 60vw;
+    }
+    .volunteer-contact {
+        margin: 2em 10vw 2em 10vw;
+        display: inline;
+    }
+    #volunteer-button {
+        display: block;
+        padding: 0.4em auto;
+    }
+    .volunteer-links {
+        flex-direction: column;
+    }
+}
+
+/* SPONSORS */
+
+.sponsors-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+    padding-right: 0;
+}
+
+.sponsors-bottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.plat-container {
+    display: flex;
+}
+
+.platinum-1 {
+    padding-right: 4em;
+}
+
+.platinum-2 {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-count: 2;
+    -moz-column-count: 2em;
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.gold {
+    padding-right: 18em;
+}
+
+.silver {
+    padding-bottom: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+    .platinum-2 {
+        -webkit-column-gap: 1.5em;
+        -moz-column-count: 1.5em;
+        column-gap: 1.5em;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .plat-container, .sponsors-bottom {
+        flex-direction: column;
+    }
+    .platinum-1 {
+        margin-bottom: 0;
+    }
+    .platinum-2 {
+        margin-top: 0;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .silver {
+        padding-bottom: 2em;
+    }
+    #sponsor-italic {
+        width: 50vw;
+    }
+    .sponsors-content {
+        padding-left: 12vw;
+    }
+}
