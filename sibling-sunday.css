@@ -1,0 +1,36 @@
+
+.sib-sun-2 {
+	display: inline-flex;
+	margin-top: 100px;
+}
+
+.sunday-summary {
+	margin-left: 100px;
+	width: 400%;
+}
+
+.sunday-summary p {
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: black;
+	letter-spacing: 0;
+}
+
+.program-dates {
+	padding-left: 100px;
+	width: 300%;
+}
+
+.program-dates h2 {
+	font-family: 'Rubik';
+	font-size: 24px;
+	color: #557CF6;
+	letter-spacing: 0;
+}
+
+.program-dates p {
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: black;
+	letter-spacing: 0;
+}
