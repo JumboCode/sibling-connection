@@ -1,0 +1,223 @@
+html {
+
+}
+
+body {
+	margin: 0px;
+}
+
+.header {
+	margin-right: 100px;
+	float: right;
+	z-index: 3;
+	visibility: visible;
+}
+
+.hamburger {
+	display: inline-flex;
+	margin: 0px;
+	padding-top: 30px;
+	position: fixed;
+
+}
+
+.hamburger p {
+	font-size: 18px;
+	margin: 0px;
+	font-family: 'Roboto';
+}
+
+.hamburger img {
+	height: 22px;
+	width: 30px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.border {
+	margin: auto;
+	background-color: #557CF6;
+	height: 10px;
+	width: 160px;
+}
+
+.aboutus1 h1 {
+	font-size: 72px;
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	padding-top: 207px;
+	font-family: 'Rubik';
+}
+
+.aboutus1 p {
+	justify-content: center;
+	padding-top: 88px;
+	text-align: center;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.down-arrow {
+	width: 50px;
+	height: 48px;
+	padding-top: 130px;
+	margin-bottom: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutus2 {
+	display: inline-flex;
+	background-color: #557CF6;
+	color: white;
+	margin: 0px;
+}
+
+.aboutus2 img {
+	height: 700px;
+	width: 50%;
+}
+
+.aboutus2 p {
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: 'Roboto';
+	font-size: 24px;
+	width: 60%;
+	padding-top: 230px;
+}
+
+.aboutus3 {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 300px;
+}
+
+.aboutus3 h2 {
+	font-size: 48px;
+	font-family: 'Rubik';
+	margin: 0px;
+	padding-top: 165px;
+	padding-bottom: 25px;
+}
+
+.border2 {
+	background-color: #557CF6;
+	height: 8px;
+	width: 225px;
+	margin-bottom: 60px;
+}
+
+.aboutus3 p {
+	padding-bottom: 75px;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.aboutus3-buttons {
+	text-align: center;
+}
+
+.button1 {
+	border: 2px solid black;
+	padding: 20px 30px;
+	font-family: 'Rubik';
+	font-size: 20px;
+	letter-spacing: 0;
+	margin-right: 20px;
+}
+
+.button2 {
+	border: 2px solid #557CF6;
+	padding: 20px 30px;
+	background-color: #557CF6;
+	color: white;
+	font-family: 'Rubik';
+	font-size: 20px;
+	letter-spacing: 0;
+	margin-left: 20px;
+}
+
+.aboutus4 {
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.aboutus4 img {
+	width: 285px;
+	height: 285px;
+	padding: 16px;
+}
+
+.overlay {
+	opacity: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.overlay-text {
+	color: #557CF6;
+	font-family: 'Rubik';
+	text-align: center;
+	font-size: 24px;
+	margin-left: 50%;
+	margin-top: 40%;
+}
+
+.aboutus4 h2 {
+	font-size: 36px;
+	color: #557CF6;
+	font-family: 'Rubik';
+	text-align: center;
+	margin: 0px;
+}
+
+
+.picture:hover .overlay {
+	opacity: 1;
+}
+
+.picture:hover img {
+	opacity: 0;
+}
+
+.aboutus5 {
+
+	padding-top: 300px;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+
+.aboutus5 h1 {
+
+	color: #557CF6;
+	font-size: 175px;
+	font-family: 'Rubik';
+	margin: 0px;
+	padding-bottom: 148px;
+}
+
+.aboutus5 .button {
+	border: 2px solid black;
+	padding: 20px 30px;
+	font-family: 'Rubik';
+	font-size: 20px;
+	letter-spacing: 0;
+	margin-right: 20px;
+
+}
+
+
+
+a[ id="arrow-low" ]:target ~ #arrow-low {
+    -webkit-transform: translateY( -500px);
+    transform: translateY( -500px );
+}
