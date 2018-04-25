@@ -1,9 +1,31 @@
-$('#menu-icon').click(function() {
-	console.log("hey1");
-	$(this).toggleClass("change");
+$( document ).ready(function() {
+	$('#menu-icon').click(function() {
+		openNav();
+	});
+
+	$('.menu-word').click(function() {
+		openNav();
+	})
+
+	$('.overlay-menu-word').click(function() {
+		closeNav();
+	})
+
+	$('#overlay-menu-icon').click(function() {
+		closeNav();
+	})
+
 });
 
-$('.menu-word').click(function() {
-	console.log("hey");
+function openNav() {
 	$('#menu-icon').toggleClass("change");
-})
+	$('#overlay-menu-icon').toggleClass("change");
+	$('#nav').css("height", "100%");
+		
+}
+
+function closeNav() {
+	$('#menu-icon').toggleClass("change", false);
+	$('#overlay-menu-icon').toggleClass("change", false);
+	$('#nav').css("height", 0);
+}

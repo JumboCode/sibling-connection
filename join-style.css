@@ -1,18 +1,101 @@
+
 .navigation {
-	display: flex;
-	flex-direction: row;
-	margin: 1vw;
-	justify-content: flex-end;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10px;
+    /*position: fixed;*/
+    height: 14vh;
+    margin: 0;
+    /*box-shadow: 0 1px 7px #878787;*/
+    width: 100%;
+    background-color: #FFF;
+}
+
+/*.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10px;
+    position: fixed;
+    height: 14vh;
+    margin: 0;
+    box-shadow: 0 1px 7px #878787;
+    width: 100%;
+    background-color: #FFF;
+}*/
+
+/*.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+}*/
+
+.logo {
+    margin-left: 5vw;
+}
+#sib-logo {
+    margin-top: 5px;
+    height: 80px;
+}
+
+.nav-elts {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    margin-top: 3vh;
+    margin-right: 40px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .menu-icon {
-	align-self: center;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	width: 20px;
-	height: 100%;
+    align-self: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 20px;
+    height: 100%;
 }
+
+.menu-word {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    border-radius: 1px;
+    width: 15px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
+    transform: rotate(-45deg) translate(-4.0px, 2.9px) ;
+}
+
+/* Fade out second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px) ;
+    transform: rotate(45deg) translate(-5px, -5px) ;
+}
+
+
 
 .menu-word {
 	font-family: 'Rubik', sans-serif;
@@ -39,6 +122,7 @@
 }
 
 .lg-quote {
+	/*padding-top: 10vh;*/
 	font-family: 'Rubik', sans-serif;
 	font-size: 7vh;
 }
@@ -90,37 +174,7 @@
 	text-align: center;
 	padding-top: 10px;
 }
-/** Menu icon **/
-.container {
-	margin-left: 10px;
-    cursor: pointer;
-}
 
-.bar1, .bar2, .bar3 {
-	border-radius: 1px;
-    width: 15px;
-    height: 3px;
-    background-color: #333;
-    margin: 3px 0;
-    transition: 0.4s;
-}
-
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
-    transform: rotate(-45deg) translate(-4.2px, 2.9px) ;
-}
-
-/* Fade out second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-5px, -5px) ;
-    transform: rotate(45deg) translate(-5px, -5px) ;
-}
 
 
 

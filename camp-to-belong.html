@@ -4,7 +4,7 @@
 	<title>Camp To Belong</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
 
     <!-- JQuery + JQuery UI-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,8 +23,45 @@
 
 </head>
 <body>
+	<!-- Menu Overlay -->
+	<div id="nav" class="overlay">
+			<div class="overlay-nav-elts">
+				<h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+					<div class="container" id="overlay-menu-icon">
+				  		<div class="bar1 o-bar1"></div>
+				  		<div class="bar1 o-bar2"></div>
+				  		<div class="bar1 o-bar3"></div>
+					</div>
+			</div>
+			<div class="page-content">
+				<div class="menu-content"><a href="homepage.html">About</a></div>
+				<div class="menu-content"> <a href="homepage.html">Programs</a></div>
+				<div class="menu-content"><a href="homepage.html">Events</a></div>
+				<div class="menu-content"> <a href="homepage.html">Join</a></div>
+				<div class="menu-content"><a href = "contact.html">Contact</a></div>	
+			</div>
+	</div>
+	<!-- <div id="myNav" class="overlay">
+
+		
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		
+		<div class="overlay-content">
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+
+	</div> -->
+
+
 	<!-- Navigation Bar -->
 	<div class="navigation">
+		<div class="logo">
+			<img id="sib-logo" src="assets/images/logo-main.png" alt="Two people hugging each other, logo">
+		</div>
 		<div class="nav-elts">
 			<h4 class="menu-word">Menu</h4>
 			<div class="container" id="menu-icon">
@@ -44,7 +81,7 @@
 		<div class="dual-image"></div>
 	</div>
 	<div class="program-details">
-		<h2 class="program-header">Camp to Belong 2018 will be <br> Sunday, August 12th - Friday, August 17th</h2>
+		<h2 class="program-header">Camp to Belong 2018 will be <br id="break1"> Sunday, August 12th - Friday, August 17th</h2>
 		<div class="page-split-large">
 			<div class="left-split">
 				<div class="button-text">
