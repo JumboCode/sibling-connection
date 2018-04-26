@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Sibling Connection</title>
-		<link rel="stylesheet" href="../style/homepage.css">
+    <head>
+        <title>Sibling Connection</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i|Rubik:700" rel="stylesheet">
+
+        <!-- JQuery + JQuery UI-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">
 
 
-		<meta charset="utf-8">
-		<meta name="description" content="Sibling Connections home page">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="Sibling Connections, Nonprofit">
+        <!-- Styling -->
+        <link rel="stylesheet" href="../style/homepage.css">
+        <link rel="stylesheet" href="../style/menu_overlay.css">
 
-		<!-- Favicon -->
-		<link rel="icon" href="">
+        <script type="text/javascript" src="camp-script.js"></script>
 
-	</head>
+    </head>
 
 	<body>
-        <div class="navigation">
-            <h3>Menu</h3>
-            <div class="hamburger">
-            	<img class="icon" src="../../DEPRECTAED_Assets-branch-md_homepage/Icons/white-menu.svg" href = "../../Assets/Specs/links/page-1-menu.html">
-			</div>
+
+        <!-- Menu Overlay -->
+        <div id="nav" class="overlay">
+            <div class="overlay-nav-elts">
+                <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+                <div class="container" id="overlay-menu-icon">
+                    <div class="bar1 o-bar1"></div>
+                    <div class="bar1 o-bar2"></div>
+                    <div class="bar1 o-bar3"></div>
+                </div>
+            </div>
+            <div class="page-content">
+                <div class="menu-content"><a href="homepage.html">About</a></div>
+                <div class="menu-content"> <a href="homepage.html">Programs</a></div>
+                <div class="menu-content"><a href="homepage.html">Events</a></div>
+                <div class="menu-content"> <a href="homepage.html">Join</a></div>
+                <div class="menu-content"><a href = "contact.html">Contact</a></div>
+            </div>
         </div>
         
 		<div class="page-content">
