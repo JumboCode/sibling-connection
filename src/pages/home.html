@@ -4,7 +4,7 @@
 	<title>Sibling Connection</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+	<link rel="icon" href="assets/images/logo-main.png">
 
     <!-- JQuery + JQuery UI-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,49 +18,52 @@
 	<link href="../style/hover.css" rel="stylesheet">
 
 	<!-- Styling -->
+	<link href="../style/header-menu.css" rel="stylesheet">
 	<link href="../style/home.css" rel="stylesheet">
 	<script type="text/javascript" src="../scripts/nav-menu.js"></script>
 
 </head>
 <body>
-	<!-- Menu Overlay -->
-	<div id="nav" class="overlay">
-			<div class="overlay-nav-elts">
-				<h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
-					<div class="container" id="overlay-menu-icon">
-				  		<div class="bar1 o-bar1"></div>
-				  		<div class="bar1 o-bar2"></div>
-				  		<div class="bar1 o-bar3"></div>
-					</div>
+	 <!--Menu Overlay-->
+	<div id="nav" class="menu">
+		<div class="toggle-menu">
+			<h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+			<div class="menu-icon">
+				<div class="bar1 white"></div>
+				<div class="bar2 white"></div>
+				<div class="bar3 white"></div>
 			</div>
-			<div class="page-content">
-				<div class="menu-content"><a href="home.html">About</a></div>
-				<div class="menu-content"> <a href="home.html">Programs</a></div>
-				<div class="menu-content"><a href="home.html">Events</a></div>
-				<div class="menu-content"> <a href="home.html">Join</a></div>
-				<div class="menu-content"><a href = "contact.html">Contact</a></div>	
-			</div>
+		</div>
+		<div class="menu-content">
+			<div class="menu-item"><a href="home.html">About</a></div>
+			<div class="menu-item"> <a href="home.html">Programs</a></div>
+			<div class="menu-item"><a href="home.html">Events</a></div>
+			<div class="menu-item"> <a href="home.html">Join</a></div>
+			<div class="menu-item"><a href = "contact.html">Contact</a></div>
+		</div>
 	</div>
 
-	<!-- Navigation Bar -->
-	<div class="navigation">
+
+	<!-- Header Bar -->
+	<div class="header-bar">
 		<div class="logo">
-			<img id="sib-logo" src="assets/images/logo-main.png" alt="Two people hugging each other, logo">
+			<img id="sib-logo" src="assets/images/logo-not-cropped.png" alt="Two people hugging each other, logo">
 		</div>
-		<div class="nav-elts">
+		<div class="toggle-menu">
 			<h4 class="menu-word">Menu</h4>
-			<div class="container" id="menu-icon">
-		  		<div class="bar1"></div>
-		  		<div class="bar2"></div>
-		  		<div class="bar3"></div>
+			<div class="menu-icon">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Place Page Content Here: -->
-	<div class="content">
-
+    <div class="content">
+		<img>
+		<h1>Sibling</h1>
+		<h1>Connections</h1>
+		<button class="button" href = "Assets/Specs/links/page-1-about-us-2.html">About us</button>
 	</div>
-
 </body>
 </html>
