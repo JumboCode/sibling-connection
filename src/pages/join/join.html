@@ -4,7 +4,7 @@
 	<title>Join</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="icon" href="../assets/images/logo-main.png">
 
     <!-- hover.css -->
     <link href="../../../assets/hover/css/hover.css" rel="stylesheet" media="all">
@@ -14,24 +14,52 @@
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">
 
 	<!-- Styling and Scripts -->
 	<link href="../../style/to_organize/join-style.css" rel="stylesheet">
+	<link href="../../style/header-menu.css" rel="stylesheet">
 	<script type="text/javascript" src="../../scripts/join.js"></script>
+	<script type="text/javascript" src="../../scripts/nav-menu.js"></script>
 </head>
+
 <body>
-	<div class="navigation">
-		<h4 class="menu-word">Menu</h4>
-		<div class="container" id="menu-icon">
-	  		<div class="bar1"></div>
-	  		<div class="bar2"></div>
-	  		<div class="bar3"></div>
-		</div>
-		 <img class="menu-icon" src="../../../assets/menu-icon.svg" alt="Icon for menu">
+	<!--Menu Overlay-->
+	<div id="nav" class="menu">
+	 <div class="toggle-menu">
+		 <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+		 <div class="menu-icon">
+			 <div class="bar1 white"></div>
+			 <div class="bar2 white"></div>
+			 <div class="bar3 white"></div>
+		 </div>
+	 </div>
+	 <div class="menu-content">
+		 <div class="menu-item"><a href="home.html">About</a></div>
+		 <div class="menu-item"> <a href="home.html">Programs</a></div>
+		 <div class="menu-item"><a href="home.html">Events</a></div>
+		 <div class="menu-item"> <a href="home.html">Join</a></div>
+		 <div class="menu-item"><a href = "contact.html">Contact</a></div>
+	 </div>
 	</div>
+
+	<!-- Header Bar -->
+	<div class="header-bar">
+	 <div class="logo">
+		 <img id="sib-logo" src="../assets/images/logo-not-cropped.png" alt="Two people hugging each other, logo">
+	 </div>
+	 <div class="toggle-menu">
+		 <h4 class="menu-word">Menu</h4>
+		 <div class="menu-icon">
+			 <div class="bar1"></div>
+			 <div class="bar2"></div>
+			 <div class="bar3"></div>
+		 </div>
+	 </div>
+	</div>
+
+
 	<div class="page-content">
 		<h2 class="lg-quote">Make a difference in the life of a child</h2>
 		<svg class="canvas">
