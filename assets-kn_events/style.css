@@ -94,16 +94,19 @@ body {
 }
 
 .left-section-events {
-    width: 45vw;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 2em 2em 0 6vw;
+    padding: 2em 2em 0 6%;
 }
 
 .right-section-events {
-    width: 55vw;
+    margin-top: 2em;
+    width: 55%;
+    height: 100%;
     background-image: url("purple_calendar.png");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
