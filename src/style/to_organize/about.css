@@ -1,7 +1,6 @@
 body {
 	margin: 0px;
 }
-
 .border {
 	margin: 1em 0 1em 0;
 	background-color: #557CF6;
@@ -177,8 +176,11 @@ body {
 *****   PART 5   *****
 *********************/
 #aboutus5 {
-	padding-top: 300px;
-	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
 	text-align: center;
 }
 #aboutus5 h1 {
@@ -186,13 +188,5 @@ body {
 	font-size: 175px;
 	font-family: 'Rubik';
 	margin: 0px;
-	padding-bottom: 148px;
-}
-#aboutus5 .button {
-	border: 2px solid black;
-	padding: 20px 30px;
-	font-family: 'Rubik';
-	font-size: 20px;
-	letter-spacing: 0;
-	margin-right: 20px;
+	margin-bottom: 50px;
 }
