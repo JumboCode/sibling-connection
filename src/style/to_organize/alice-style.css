@@ -69,6 +69,10 @@ article {
 }
 
 .overlay-text {
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 2em;
 	text-align: center;
 	color: white;
 	opacity: 0;
