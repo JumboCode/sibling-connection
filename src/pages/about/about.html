@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>About Us - Sibling Connections</title>
+		<title>About | Sibling Connections</title>
 		<meta charset="UTF-8">
-	  	<meta name="description" content="About Sibling Connections, the organization">
-	  	<meta name="keywords" content="SiblingConnections, About, Nonprofit">
-	  	<meta name="viewport" content="width=device-width" />
+	  <meta name="keywords" content="SiblingConnections, About, Nonprofit">
+  	<meta name="viewport" content="width=device-width"/>
+		<link rel="icon" href="../assets/images/logo-main.png">
 
-	  	<link rel="stylesheet" href="../../style/to_organize/about.css">
-	  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i|Rubik:700" rel="stylesheet">
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	  	<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+		<!-- JQuery + JQuery UI-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        //window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
-
+		<!-- Stylesheets -->
+  	<link rel="stylesheet" href="../../style/to_organize/about.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i|Rubik:700" rel="stylesheet">
+		<link href="../../style/header-menu.css" rel="stylesheet">
+		<script type="text/javascript" src="../../scripts/nav-menu.js"></script>
 	</head>
-  
-	<body>
 
-		<div class="header">
-			<div class="hamburger">
-				<p>Menu</p>
-				<img src="../../../img/hamburger.svg">
-			</div>
+	<body>
+		<!--Menu Overlay-->
+		<div id="nav" class="menu">
+		 <div class="toggle-menu">
+			 <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+			 <div class="menu-icon">
+				 <div class="bar1 white"></div>
+				 <div class="bar2 white"></div>
+				 <div class="bar3 white"></div>
+			 </div>
+		 </div>
+		 <div class="menu-content">
+			 <div class="menu-item"><a href="home.html">About</a></div>
+			 <div class="menu-item"> <a href="programs.html">Programs</a></div>
+			 <div class="menu-item"><a href="../events/events-page.html">Events</a></div>
+			 <div class="menu-item"> <a href="../join/join.html">Join</a></div>
+			 <div class="menu-item"><a href = "contact.html">Contact</a></div>
+		 </div>
 		</div>
 
+		<!-- Header Bar -->
+		<div class="header-bar">
+		 <div class="logo">
+			 <img id="sib-logo" src="../assets/images/logo-not-cropped.png" alt="Two people hugging each other, logo">
+		 </div>
+		 <div class="toggle-menu">
+			 <h4 class="menu-word">Menu</h4>
+			 <div class="menu-icon">
+				 <div class="bar1"></div>
+				 <div class="bar2"></div>
+				 <div class="bar3"></div>
+			 </div>
+		 </div>
+		</div>
+
+		<!-- Page Content -->
 		<div class="content">
 
-			<div class="aboutus1">
+			<!-- PART 1 -->
+			<div id="aboutus1">
 				<h1>About Us</h1>
-				<div class="border">
-				</div>
+				<div class="border"></div>
 				<p>Sibling Connections' mission is to support the creation of enduring family relationships and community connections for sisters and brothers separated by the foster care system in Massachusetts.</p>
-			</div>
 			<a href="#arrow-low">
-				<img src="../../../LEGIT_assets/icons/arrow.svg" class="down-arrow" alt="Down Arrow">
+				<img src="../../assets/icons/arrow.svg" class="down-arrow" alt="Down Arrow">
 			</a>
-
-
-			<div id="arrow-low" class="aboutus2">
-				<p>Our vision is for every child who is removed from their home and placed in the foster care system to maintain their sibling bond and be rooted in and surrounded by a community caring people invested in their health and well being.</p>
-
-				<img src="../../../img/about-kids.png">
-
 			</div>
 
-			<div class="aboutus3">
+			<!-- PART 2 -->
+			<div id="aboutus2">
+				<div id="p-container">
+					<p>Our vision is for every child who is removed from their home and placed in the foster care system to maintain their sibling bond and be rooted in and surrounded by a community caring people invested in their health and well being.</p>
+				</div>
+				<div id="img-container"></div>
+			</div>
 
+			<!-- PART 3-->
+			<div id="aboutus3">
 				<h2>A little more about what we do...</h2>
 				<div class="border2">
 				</div>
@@ -80,89 +86,88 @@ $(document).ready(function(){
 					<a class="button1">More about the organization</a>
 					<a class="button2">Read about our history</a>
 				</div>
+			</div>
+
+			<!-- PART 4 -->
+			<div id="aboutus4">
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+				<div class="picture">
+					<div class="overlay">
+						<div class="overlay-text">
+							<h2>Jay Greene</h2>
+							<p>Treasurer</p>
+						</div>
+					</div>
+					<img src="../../../img/picture.jpg">
+				</div>
+
 
 			</div>
 
-
-			<div class="aboutus4">
-
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				<div class="picture">
-					<div class="overlay">
-						<div class="overlay-text">
-							<h2>Jay Greene</h2>
-							<p>Treasurer</p>
-						</div>
-					</div>
-					<img src="../../../img/picture.jpg">
-				</div>
-				
-
-			</div>
-
-			<div class="aboutus5">
+			<!--PART 5 -->
+			<div id="aboutus5">
 
 				<h1>Thank You</h1>
 
