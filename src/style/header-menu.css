@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size:contain;
     background-image: url('../assets/pictures/nav-menu-kids.png');
-    background-color: rgba(85, 124, 246, .8); /* want opacity? if not, go back to the hex #557CF6 */
+    background-color: rgba(85, 124, 246, 1); /* want opacity? if not, go back to the hex #557CF6 */
     background-size: 70%;
     transition: 0.5s;
     margin: 0;
