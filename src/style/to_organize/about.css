@@ -129,41 +129,46 @@ body {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-
-#aboutus4 img {
+#aboutus4 .picture {
 	width: 285px;
 	height: 285px;
 	padding: 16px;
+	transition: all 0.5s;
 }
-
+#aboutus4 img {
+	width: 285px;
+	height: 285px;
+	transition: all 0.5s;
+}
 .overlay {
+	box-sizing: border-box;
+	height: 285px; width: 285px;
 	opacity: 0;
 	position: absolute;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	transition: all 0.5s;
 }
-
-.overlay-text {
+.overlay-text h2 {
 	color: #557CF6;
 	font-family: 'Rubik';
 	text-align: center;
-	font-size: 24px;
-	margin-left: 50%;
-	margin-top: 40%;
+	font-size: 32px;
 }
-
-#aboutus4 h2 {
-	font-size: 36px;
+.overlay-text p {
 	color: #557CF6;
-	font-family: 'Rubik';
-	text-align: center;
-	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
 }
-
 
 .picture:hover .overlay {
 	opacity: 1;
 }
-
 .picture:hover img {
 	opacity: 0;
 }
@@ -176,16 +181,13 @@ body {
 	padding-bottom: 100px;
 	text-align: center;
 }
-
 #aboutus5 h1 {
-
 	color: #557CF6;
 	font-size: 175px;
 	font-family: 'Rubik';
 	margin: 0px;
 	padding-bottom: 148px;
 }
-
 #aboutus5 .button {
 	border: 2px solid black;
 	padding: 20px 30px;
@@ -193,12 +195,4 @@ body {
 	font-size: 20px;
 	letter-spacing: 0;
 	margin-right: 20px;
-
-}
-
-
-
-a[ id="arrow-low" ]:target ~ #arrow-low {
-    -webkit-transform: translateY( -500px);
-    transform: translateY( -500px );
 }
