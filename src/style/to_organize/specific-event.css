@@ -20,8 +20,8 @@ span {
 }
 
 .specific-events {
-	margin-left: 10vw;
-	margin-right: 10vw;
+	padding-left: 5em;
+	padding-right: 5em;
 }
 
 .border {
@@ -35,13 +35,15 @@ span {
 .title {
 	font-size: 50px;
 	font-family: 'Rubik';
-	padding-top: 70px;
+	padding-top: 1em;
 	margin-bottom: 20px;
 	margin-top: 0px;
 }
 
 .dates {
-	display: inline-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	padding-bottom: 10px;
 }
 
@@ -49,12 +51,26 @@ span {
 	padding-left: 30px;
 }
 
-.buy {
-	color: black;
-	font-size: 20px;
-	border: 2px solid black;
-	padding: 20px;
-	padding-right: 25px;
+
+.button {
+    background-color: white;
+    border: solid;
+    border-width: 0.1em;
+    color: black;
+    padding: 1em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    margin: 0 1em 0 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.button:hover {
+    background-color: #557CF6;
+    border-color: #557CF6;
+    color: white;
 }
 
 .content a {
