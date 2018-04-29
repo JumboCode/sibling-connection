@@ -73,55 +73,56 @@ body {
 *****   PART 3   *****
 *********************/
 #aboutus3 {
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100vh;
+	padding: 50px 100px 50px 100px;
 }
 #aboutus3 h2 {
 	font-size: 48px;
 	font-family: 'Rubik';
 	margin: 0px;
-	padding-top: 165px;
 	padding-bottom: 25px;
 }
-
 .border2 {
 	background-color: #557CF6;
 	height: 8px;
 	width: 225px;
 	margin-bottom: 60px;
 }
-
 #aboutus3 p {
-	padding-bottom: 75px;
+	margin: 0;
+	padding-bottom: 50px;
 	font-family: 'Roboto';
 	font-size: 20px;
 }
-
-#aboutus3-buttons {
-	text-align: center;
+.button {
+    background-color: white;
+    border: solid;
+    border-width: 0.1em;
+    color: black;
+    padding: 1em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    margin: 0 1em 0 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.button:hover {
+    background-color: #557CF6;
+    border-color: #557CF6;
+    color: white;
 }
 
-.button1 {
-	border: 2px solid black;
-	padding: 20px 30px;
-	font-family: 'Rubik';
-	font-size: 20px;
-	letter-spacing: 0;
-	margin-right: 20px;
-}
-
-.button2 {
-	border: 2px solid #557CF6;
-	padding: 20px 30px;
-	background-color: #557CF6;
-	color: white;
-	font-family: 'Rubik';
-	font-size: 20px;
-	letter-spacing: 0;
-	margin-left: 20px;
-}
-
+/*********************
+*****   PART 4   *****
+*********************/
 #aboutus4 {
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -167,12 +168,13 @@ body {
 	opacity: 0;
 }
 
+/*********************
+*****   PART 5   *****
+*********************/
 #aboutus5 {
-
 	padding-top: 300px;
 	padding-bottom: 100px;
 	text-align: center;
-
 }
 
 #aboutus5 h1 {
