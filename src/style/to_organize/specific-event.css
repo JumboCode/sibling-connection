@@ -1,11 +1,10 @@
 html {
 	font-family: 'Roboto';
-	margin-left: 70px;
 }
 
 h2 {
 	font-family: 'Rubik';
-	color: #557CF6; 
+	color: #557CF6;
 	font-size: 22px;
 }
 
@@ -20,32 +19,9 @@ span {
 	color: #557CF6;
 }
 
-.header {
-	margin-right: 120px;
-	float: right;
-	z-index: 3;
-	visibility: visible;
-}
-
-.hamburger {
-	display: inline-flex;
-	margin: 0px;
-	padding-top: 30px;
-	position: fixed;
-
-}
-
-.hamburger p {
-	font-size: 18px;
-	margin: 0px;
-	font-family: 'Rubik';
-}
-
-.hamburger img {
-	height: 22px;
-	width: 30px;
-	padding-left: 10px;
-	padding-right: 30px;
+.specific-events {
+	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 .border {
