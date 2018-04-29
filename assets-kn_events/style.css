@@ -27,19 +27,7 @@ h2 { /* Event Name */
     color: #557CF6;
 }
 
-h3 { /* Menu */ 
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
-    padding: 2.2em 0 0 0;
-}
 
-h4 { /* Sponsor Distinction */
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.2em;
-    margin: 0.3em 0 0.6em 0;
-    color: #557CF6;
-    padding-top: 0.4em;
-}
 
 ul {
     font-family: 'Roboto', sans-serif;
@@ -57,27 +45,7 @@ body {
     margin: 0 0 0 0;
 }
 
-.menu-bar {
-    height: 90px;
-}
 
-.menu {
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hamburger {
-    padding: 2.5em 0.8em 0 0.8em;
-    width: 25px;
-    height: 21px;
-}
-
-.hamburger:hover {
-    cursor: pointer;
-}
 
 .blue-bar {
     width: 8rem;
