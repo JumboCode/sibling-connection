@@ -1,0 +1,23 @@
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+#content {
+  margin: 50px 100px;
+}
+#history {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#history img {
+  margin-left: 50px;
+}
+#bar {
+  width: 8rem;
+  height: 8px;
+  background-color: #557CF6;
+  margin-bottom: 15px;
+}

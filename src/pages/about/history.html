@@ -1,39 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sibling Connection</title>
-        <link rel="stylesheet" href="../../../assests-branch-no_contact/styles/contact-style.css">
-        <link rel="stylesheet" href="../../../assests-branch-no_contact/styles/hover.css" >
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div class="navigation">
-            <h3>Menu</h3>
-            <img class="menu" src="../../../assests-branch-no_contact/icons/menu.svg" height="21" width="25">
-        </div>
-        
-        <div>
-            <h2 class="header">Our History</h2>
-            <hr>
-            
-            <div class="history">
-                <div>
-                    <p>Sibling Connections was founded in 2005, by child advocate Judy Cockerton. Judy began her journey in 1999, when she and her husband became foster parents to two sisters. It was through these two beautiful little girls that Judy began learning about the realities of life for children who experience foster care.</p>
-            
-                    <p>The first step in the creation of Sibling Connections was becoming an affiliate of Camp to Belong - an annual, week-long overnight camp for kids experiencing foster care to reconnect with their siblings. Camp To Belong is an international organization founded by Lynn Price, a former youth in care who knows firsthand about the power of the sibing connection. Judy stumbled across an episode of the Obrah show where Lynn was receiving a "Use Your Life" award and was compelled to bring this wonderful program to Massachusettes. After a uear of planning and organizing, Camp To Belong MA was launchde on the Cape Cod in August 2005.</p>
-                </div>
+<head>
+  <title>History | Sibling Connections</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../assets/images/logo-main.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <img class="lady" src="../../../assests-branch-no_contact/images/history_lady.jpg" height="200" width="300">
-            </div>
-            
-            <p>As the buses pulled out of camp at the end of an amazing week, Judy and a group of dedicated volunteers knew they needed to do more to keep siblings connected year-round, which led to the launch of our second program, Sibling Sunday, in western MA in the fall of 2005. Sibling Sunday is a year-round program that offers regularly scheduled opportunities for sisters and brothers who live apart to connect in a safe environment and create joyous shared memories. The Sibling Sunday program continued to expand its reach throughout MA as we opened programs in Lowell, southeastern MA, and Boston. We noe operate three robust programs: western MA, Boston, and greater Lowell.</p>
-            
-            <p>To maintain relationships with our older program participants, we launched a Youth Leadership Program (YLP) in the summer of 2013, inviting 8 youth to serve as peer role models during our week of camp. This program has since doubled in size and we were able to invite 16 teens to participate at CTB MA in 2016.</p>
-            
-            <p>Additionally, we offered our first Sibling Weekend Retreat in February 2016, which gave 30 siblings the opportunity to spend a weekend of fun, games, movie-watching, and more together. Our goal is to be able to offer three Weekend Retreats annually to supplement our other programming.</p>
-            
-            <p>We are looking forward to a future of serving even more sibling groups across the state, expansion of our exisiting programs, and continuing to spread awareness of the realities for siblings in the foster care system. We invite you to join the Sibling Connections family in creating a better future for sisters and brothers who experience foster care.</p>
-        </div>
-    </body>
+  <!-- JQuery + JQuery UI-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../style/to_organize/history.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">
+  <link href="../../style/header-menu.css" rel="stylesheet">
+	<script type="text/javascript" src="../../scripts/nav-menu.js"></script>
+</head>
+
+<body>
+  <!--Menu Overlay-->
+  <div id="nav" class="menu">
+   <div class="toggle-menu">
+     <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1 white"></div>
+       <div class="bar2 white"></div>
+       <div class="bar3 white"></div>
+     </div>
+   </div>
+   <div class="menu-content">
+     <div class="menu-item"><a href="../about/about.html">About</a></div>
+     <div class="menu-item"> <a href="../programs/programs.html">Programs</a></div>
+     <div class="menu-item"><a href="../events/events-page.html">Events</a></div>
+     <div class="menu-item"> <a href="../join/join.html">Join</a></div>
+     <div class="menu-item"><a href = "../contact/contact.html">Contact</a></div>
+   </div>
+  </div>
+
+  <!-- Header Bar -->
+  <div class="header-bar">
+   <div class="logo">
+     <img id="sib-logo" src="../assets/images/logo-not-cropped.png" alt="Two people hugging each other, logo">
+   </div>
+   <div class="toggle-menu">
+     <h4 class="menu-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1"></div>
+       <div class="bar2"></div>
+       <div class="bar3"></div>
+     </div>
+   </div>
+  </div>
+
+  <!-- PAGE CONTENT -->
+  <div id="content">
+    <h2>Our History</h2>
+    <div id="bar"></div>
+    <div id="history">
+      <div>
+        <p>
+          Sibling Connections was founded in 2005, by child advocate Judy Cockerton. Judy began her journey in 1999, when she and her husband became foster parents to two sisters. It was through these two beautiful little girls that Judy began learning about the realities of life for children who experience foster care.
+        </p>
+        <p>
+          The first step in the creation of Sibling Connections was becoming an affiliate of Camp to Belong - an annual, week-long overnight camp for kids experiencing foster care to reconnect with their siblings. Camp To Belong is an international organization founded by Lynn Price, a former youth in care who knows firsthand about the power of the sibing connection. Judy stumbled across an episode of the Obrah show where Lynn was receiving a "Use Your Life" award and was compelled to bring this wonderful program to Massachusettes. After a uear of planning and organizing, Camp To Belong MA was launchde on the Cape Cod in August 2005.
+        </p>
+      </div>
+      <img class="lady" src="../../../assests-branch-no_contact/images/history_lady.jpg" height="200" width="300">
+    </div>
+    <p>
+      As the buses pulled out of camp at the end of an amazing week, Judy and a group of dedicated volunteers knew they needed to do more to keep siblings connected year-round, which led to the launch of our second program, Sibling Sunday, in western MA in the fall of 2005. Sibling Sunday is a year-round program that offers regularly scheduled opportunities for sisters and brothers who live apart to connect in a safe environment and create joyous shared memories. The Sibling Sunday program continued to expand its reach throughout MA as we opened programs in Lowell, southeastern MA, and Boston. We noe operate three robust programs: western MA, Boston, and greater Lowell.
+    </p>
+    <p>
+      To maintain relationships with our older program participants, we launched a Youth Leadership Program (YLP) in the summer of 2013, inviting 8 youth to serve as peer role models during our week of camp. This program has since doubled in size and we were able to invite 16 teens to participate at CTB MA in 2016.
+    </p>
+    <p>
+      Additionally, we offered our first Sibling Weekend Retreat in February 2016, which gave 30 siblings the opportunity to spend a weekend of fun, games, movie-watching, and more together. Our goal is to be able to offer three Weekend Retreats annually to supplement our other programming.
+    </p>
+    <p>
+      We are looking forward to a future of serving even more sibling groups across the state, expansion of our exisiting programs, and continuing to spread awareness of the realities for siblings in the foster care system. We invite you to join the Sibling Connections family in creating a better future for sisters and brothers who experience foster care.
+    </p>
+  </div>
+</body>
 </html>
