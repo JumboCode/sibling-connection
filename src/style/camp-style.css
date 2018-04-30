@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+}
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 144px;
+    color: #FFFFFF;
+    line-height: 144px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #557CF6;
+    font-family: 'Rubik';
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon{
+    height: 21px;
+    width: 25px;
+}
+@media screen and (max-height: 525px) {
+    .page-content {
+        margin-left: 10vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/******* END ********/
+
+
+/* Dual overlay */
+.dual-overlay {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.dual-solid {
+    margin: 0;
+    background-color: #557CF6;
+    height: 90vh;
+    width: 50vw;
+}
+
+.dual-image {
+    width: 50vw;
+    height: 90vh;
+    background-image: url('../assets/pictures/program2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dual-text {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 25vh;
+    font-size: 5em;
+    text-align: center;
+}
+.dual-icon {
+    width: 100%;
+}
+.dual-arrow {
+    width: 50px;
+    margin-top: 5vh;
+    margin-left: 46%;
+
+    color: white;
+}
+
+
+.program-details {
+    margin: 10vh 7vw;
+}
+.program-header {
+    margin-right: 20vw;
+    font-family: "Rubik", sans-serif;
+    color: #557CF6;
+    font-size: 2.5em;
+    margin-top: -3vh;
+    margin-bottom: 0;
+}
+p {
+    font-size: 0.95em;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-text {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.btn-txt {
+    margin: 0;
+    margin-left: 2vw;
+}
+.btn-txt a {
+  font-family: "Rubik", sans-serif;
+  color: #557CF6;
+}
+.btn {
+    border: 2px solid black;
+    width: 180px;
+    height: 60px;
+    /*color: white;*/
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.page-split-large {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.left-split {
+    padding: 3vw;
+    padding-left: 0;
+    width: 175%;
+}
+.right-split {
+    padding: 3vw;
+    /*margin-right: 10vw;*/
+    width: 75%;
+}
+.list-heading {
+    color: #557CF6;
+    font-family: "Rubik", sans-serif;
+}
+#camp-pic {
+  width: 100%;
+}
+
+@media screen and (max-width: 1175px) and (min-width: 801px) {
+    .program-header {
+        /*border: 1px solid blue;*/
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .page-split-large {
+        /*border: 1px solid right: ed;*/
+        margin-top: 0;
+    }
+    .btn {
+        height: 70px;
+    }
+
+    .btn-txt {
+        margin-top: 0;
+        margin-left: 6vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+    .dual-text {
+        margin-top: 30vh;
+        font-size: 3.5em;
+    }
+    .dual-arrow {
+        width: 40px;
+        margin-top: 1vh;
+        margin-left: 44%;
+    }
+
+    .program-header {
+        font-family: "Rubik", sans-serif;
+        color: #557CF6;
+        font-size: 2em;
+    }
+
+    #break1 {
+        display: none;
+    }
+
+    .btn {
+        height: 70px;
+    }
+
+    .btn-txt {
+        margin-top: 0;
+        margin-left: 5vw;
+    }
+
+    .button-text {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .right-split {
+        padding-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+   body, html {
+        /*widxth: 109vw;*/
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+   }
+
+    .navigation {
+
+    }
+    .dual-overlay {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .dual-image {
+        display: none;
+    }
+    .dual-solid {
+        width: 100%;
+        height: 70vh;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .dual-text {
+        margin-top: 23vh;
+    }
+
+    .program-header {
+        font-size: 1.8em;
+        margin: 0 5vw 0 0;
+        /*border: 1px solid red;*/
+    }
+
+    .logo {
+        /*margin-top: 3vh;*/
+    }
+
+    .page-split-large {
+        /*flex-wrap: ;*/
+        /*flex-direction: column;*/
+    }
+
+    .right-split {
+        /*display: none;*/
+    }
+
+}
