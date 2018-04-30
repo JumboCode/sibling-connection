@@ -27,8 +27,6 @@ h2 { /* Event Name */
     color: #557CF6;
 }
 
-
-
 ul {
     font-family: 'Roboto', sans-serif;
     margin: 0.5em 0 0.5em 0;
@@ -241,8 +239,11 @@ body {
 .sponsors-content {
     display: flex;
     flex-direction: column;
-    padding-left: 6vw;
-    padding-right: 0;
+    margin: 50px 100px;
+}
+.sponsors-content h4 {
+  font-family: 'Rubik', sans-serif;
+  color: #557CF6;
 }
 
 .sponsors-bottom {
