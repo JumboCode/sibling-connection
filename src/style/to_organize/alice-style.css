@@ -68,9 +68,9 @@ h1 {
 	background-blend-mode: multiply;
 	background-color: #557CF6;
 }
-#card1 {background-image: url("../../../assets/program/program1.png");}
-#card2 {background-image: url("../../../assets/program/program2.png");}
-#card3 {background-image: url("../../../assets/program/program3.png");}
+#card1 {background-image: url("../../assets/pictures/program1.png");}
+#card2 {background-image: url("../../assets/pictures/program2.png");}
+#card3 {background-image: url("../../assets/pictures/program3.png");}
 
 .person {
 	display: flex;

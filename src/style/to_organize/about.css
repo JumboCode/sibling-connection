@@ -53,7 +53,7 @@ body {
 }
 #img-container {
 	height: 100%; width: 50%;
-	background-image: url("../../../img/about-kids.png");
+	background-image: url("../../assets/pictures/about-kids.png");
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
