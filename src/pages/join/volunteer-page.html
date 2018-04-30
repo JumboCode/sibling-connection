@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sibling Connections</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Sibling Connections Volunteer">
+	<title>Volunteer | Sibling Connections</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Sibling Connections, Volunteer">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- JQuery + JQuery UI-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../../../assets-kn_events/style.css"/>
+	<link rel="stylesheet" href="../../style/to_organize/volunteer.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">
+	<link href="../../style/header-menu.css" rel="stylesheet">
+	<script type="text/javascript" src="../../scripts/nav-menu.js"></script>
 </head>
+
 <body>
-	<div class="container">
-		<div class="menu-bar">
-			<div class="menu">
-				<h3>Menu</h3>
-				<div class="hamburger" href="">
-					<img src="../../../assets-kn_events/hamburger.svg">
-				</div>
-			</div>
-		</div>
-		<div class="volunteer-title">
-			<h1>Volunteer</h1>
-			<div class="blue-bar"></div>
-		</div>
-		<div class="volunteer-content">
-			<div class="left-section-volunteer">
-				<div class="video-wrapper">
+	<!--Menu Overlay-->
+	<div id="nav" class="menu">
+	 <div class="toggle-menu">
+		 <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+		 <div class="menu-icon">
+			 <div class="bar1 white"></div>
+			 <div class="bar2 white"></div>
+			 <div class="bar3 white"></div>
+		 </div>
+	 </div>
+	 <div class="menu-content">
+		 <div class="menu-item"><a href="../about/about.html">About</a></div>
+		 <div class="menu-item"> <a href="../programs/programs.html">Programs</a></div>
+		 <div class="menu-item"><a href="../events/events-page.html">Events</a></div>
+		 <div class="menu-item"> <a href="../join/join.html">Join</a></div>
+		 <div class="menu-item"><a href = "../contact/contact.html">Contact</a></div>
+	 </div>
+	</div>
+
+	<!-- Header Bar -->
+	<div class="header-bar">
+	 <div class="logo">
+		 <img id="sib-logo" src="../assets/images/logo-not-cropped.png" alt="Two people hugging each other, logo">
+	 </div>
+	 <div class="toggle-menu">
+		 <h4 class="menu-word">Menu</h4>
+		 <div class="menu-icon">
+			 <div class="bar1"></div>
+			 <div class="bar2"></div>
+			 <div class="bar3"></div>
+		 </div>
+	 </div>
+	</div>
+
+	<!-- PAGE CONTENT-->
+	<div id="container">
+		<h1>Volunteer</h1>
+		<div id="bar"></div>
+		<div id="volunteer-content">
+			<div class="column">
+				<div id="video-wrapper">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/eERWhZXCEH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class="right-section-volunteer">
+			<div class="column">
 				<p>Whether it's only one Sunday per year or a week at Camp to Belong Massachusetts, you will make a difference in a child's life and nothing is more rewarding!</p>
 				<p>Thank you for your interest in our camping program and we are grateful for your time to apply as a CTB volunteer.</p>
 				<div class="volunteer-links">
@@ -39,8 +72,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="volunteer-contact">
-			<p>For more information regarding volunteer opportunities please contact our volunteer coordinator,	<span class="blue-text">Amanda Neas</span>, at <span class="blue-text">volunteer[at]siblingconnections[dot]org.</span> This is a very special program, and you can really make a difference.</p>
+		<div id="volunteer-contact">
+			<p>For more information regarding volunteer opportunities please contact our volunteer coordinator,	<span class="blue">Amanda Neas</span>, at <span class="blue">volunteer@siblingconnections.org</span>. This is a very special program, and you can really make a difference.</p>
 		</div>
 	</div>
 </body>
