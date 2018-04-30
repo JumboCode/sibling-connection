@@ -45,6 +45,10 @@
 	margin-left: 15vw;
 	margin-right: 15vw;
 }
+.action-icons a {
+	text-decoration: none;
+	color: black;
+}
 .join-icon {
 	width: 150px;
 }
