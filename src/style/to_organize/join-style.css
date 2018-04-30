@@ -14,6 +14,7 @@
 
 .page-content {
 	margin-left: 10vw;
+	margin-top: 50px;
 	margin-right: 10vw;
 	display: flex;
 	flex-direction: column;
@@ -23,6 +24,7 @@
 .lg-quote {
 	font-family: 'Rubik', sans-serif;
 	font-size: 7vh;
+	margin-top: 0px;
 }
 
 .content-text {
