@@ -1,0 +1,42 @@
+#container {
+  margin: 50px 100px;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+#bar {
+  height: 8px;
+  width: 15em;
+  background-color: #557CF6;
+  margin: 1.5em 0 3em 0;
+}
+.blue {
+  font-family: 'Rubik', sans-serif;
+  color: #557CF6;
+}
+#intro {
+  margin-bottom: 5%;
+}
+.section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2.5%;
+}
+.number {
+  font-family: 'Rubik', sans-serif;
+  background-color: #557CF6;
+  color: white;
+  height: 85px; min-width: 85px;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.textbox h1 {
+  font-size: 1.5em;
+  color: #557CF6;
+}
