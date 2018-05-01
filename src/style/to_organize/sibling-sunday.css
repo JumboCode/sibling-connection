@@ -1,36 +1,35 @@
-
+.dual-image {
+    width: 50vw;
+    height: 90vh;
+    background-image: url('../../assets/pictures/program1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .sib-sun-2 {
-	display: inline-flex;
-	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 50px 100px;
 }
 
-.sunday-summary {
-	margin-left: 100px;
-	width: 400%;
+#sunday-summary {
+	width: 55%;
 }
 
-.sunday-summary p {
+p {
 	font-family: 'Roboto';
-	font-size: 18px;
+	/*font-size: 18px;*/
 	color: black;
-	letter-spacing: 0;
 }
 
-.program-dates {
-	padding-left: 100px;
-	width: 300%;
+#program-dates {
+	width: 35%;
 }
 
-.program-dates h2 {
+h2 {
 	font-family: 'Rubik';
 	font-size: 24px;
 	color: #557CF6;
-	letter-spacing: 0;
-}
-
-.program-dates p {
-	font-family: 'Roboto';
-	font-size: 18px;
-	color: black;
 	letter-spacing: 0;
 }
