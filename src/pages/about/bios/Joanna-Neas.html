@@ -2,19 +2,68 @@
 <html>
 <head>
 	<title>Joanna Neas | Sibling Connections</title>
+	<meta charset="UTF-8">
+  <link rel="icon" href="../../../assets/logos/logo-main.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- JQuery + JQuery UI-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="../../../style/bio-style.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:bold">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto|Rubik:700">
+	<link href="../../../style/header-menu.css" rel="stylesheet">
+	<script type="text/javascript" src="../../../scripts/nav-menu.js"></script>
 </head>
+
 <body>
-	<div class="person">
-		<img id="bio-pic" src="../../../assets/pictures/headshots/Joanna-Neas.jpg">
-		<div class="bio-container">
-			<h1 class="name">Joanna Neas</h1>
-			<h2 class="role">Secretary</h2>
-			<p class="description">
-				Joanna graduated from Stonehill College with a BA in Psychology and Studio Art. After working in the museum field and teaching preschool, she decided to pursue a degree in nursing. She earned her BSN from the MGH Institute of Health Professions in 2012 and now works as an RN in outpatient pediatric cardiology at MassGeneral Hospital for Children. Joanna began as a volunteer counselor at Camp To Belong MA in 2006 and joined the board in 2008. In 2010, she stepped out of her counselor role at Camp To Belong MA and joined the health center staff, collaborating with a team of nurses to provide a safe and fun camp experience. Joanna has also assisted with fundraising events, volunteer training, and coordination of the Sibling Sunday programs.
-			</p>
+	<!--Menu Overlay-->
+  <div id="nav" class="menu">
+   <div class="toggle-menu">
+     <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1 white"></div>
+       <div class="bar2 white"></div>
+       <div class="bar3 white"></div>
+     </div>
+   </div>
+   <div class="menu-content">
+     <div class="menu-item"><a href="../about.html">About</a></div>
+     <div class="menu-item"><a href="../../programs/programs.html">Programs</a></div>
+     <div class="menu-item"><a href="../../events/events-page.html">Events</a></div>
+     <div class="menu-item"><a href="../../join/join.html">Join</a></div>
+     <div class="menu-item"><a href="../../contact/contact.html">Contact</a></div>
+   </div>
+  </div>
+
+  <!-- Header Bar -->
+  <div class="header-bar">
+   <div class="logo">
+     <img id="sib-logo" src="../../../assets/logos/logo-not-cropped.png" alt="Two people hugging each other, logo">
+   </div>
+   <div class="toggle-menu">
+     <h4 class="menu-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1"></div>
+       <div class="bar2"></div>
+       <div class="bar3"></div>
+     </div>
+   </div>
+  </div>
+
+	<!-- PAGE CONTENT -->
+	<div class="content">
+		<div class="person">
+			<img class="bio-pic" src="../../../assets/pictures/headshots/Joanna-Neas.jpg" alt="headshot">
+			<div class="bio-container">
+				<h1>Joanna Neas</h1>
+				<h2>Secretary</h2>
+				<p>
+					Joanna graduated from Stonehill College with a BA in Psychology and Studio Art. After working in the museum field and teaching preschool, she decided to pursue a degree in nursing. She earned her BSN from the MGH Institute of Health Professions in 2012 and now works as an RN in outpatient pediatric cardiology at MassGeneral Hospital for Children. Joanna began as a volunteer counselor at Camp To Belong MA in 2006 and joined the board in 2008. In 2010, she stepped out of her counselor role at Camp To Belong MA and joined the health center staff, collaborating with a team of nurses to provide a safe and fun camp experience. Joanna has also assisted with fundraising events, volunteer training, and coordination of the Sibling Sunday programs.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>

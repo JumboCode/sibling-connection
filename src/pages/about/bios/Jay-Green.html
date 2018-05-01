@@ -2,19 +2,68 @@
 <html>
 <head>
 	<title>Jay Green | Sibling Connections</title>
+	<meta charset="UTF-8">
+  <link rel="icon" href="../../../assets/logos/logo-main.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- JQuery + JQuery UI-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="../../../style/bio-style.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:bold">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto|Rubik:700">
+	<link href="../../../style/header-menu.css" rel="stylesheet">
+	<script type="text/javascript" src="../../../scripts/nav-menu.js"></script>
 </head>
+
 <body>
-	<div class="person">
-		<img id="bio-pic" src="../../../assets/pictures/headshots/Jay-Green.jpg">
-		<div class="bio-container">
-			<h1 class="name">Jay Green</h1>
-			<h2 class="role">Treasurer</h2>
-			<p class="description">
-				Jay joined the board in the fall of 2011 after being involved as a volunteer counselor at Camp to Belong MA since 2009 and participating in many Sibling Connections fundraising events. He graduated from Boston College in 2004 with a BA in History and went on to earn a Master of Science in Accounting from Boston College in 2005. Following Boston College, Jay joined KPMG’s audit practice working with many large companies such as Dunkin’ Brands, Sarepta Therapeutics, Albany Molecular Research, Inc. and Reebok. He is currently a Senior Manager at KPMG and resides in Milton, MA, with his wife Ashley and his growing family.
-			</p>
+	<!--Menu Overlay-->
+  <div id="nav" class="menu">
+   <div class="toggle-menu">
+     <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1 white"></div>
+       <div class="bar2 white"></div>
+       <div class="bar3 white"></div>
+     </div>
+   </div>
+   <div class="menu-content">
+     <div class="menu-item"><a href="../about.html">About</a></div>
+     <div class="menu-item"><a href="../../programs/programs.html">Programs</a></div>
+     <div class="menu-item"><a href="../../events/events-page.html">Events</a></div>
+     <div class="menu-item"><a href="../../join/join.html">Join</a></div>
+     <div class="menu-item"><a href="../../contact/contact.html">Contact</a></div>
+   </div>
+  </div>
+
+  <!-- Header Bar -->
+  <div class="header-bar">
+   <div class="logo">
+     <img id="sib-logo" src="../../../assets/logos/logo-not-cropped.png" alt="Two people hugging each other, logo">
+   </div>
+   <div class="toggle-menu">
+     <h4 class="menu-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1"></div>
+       <div class="bar2"></div>
+       <div class="bar3"></div>
+     </div>
+   </div>
+  </div>
+
+	<!-- PAGE CONTENT -->
+	<div class="content">
+		<div class="person">
+			<img class="bio-pic" src="../../../assets/pictures/headshots/Jay-Green.jpg" alt="headshot">
+			<div class="bio-container">
+				<h1>Jay Green</h1>
+				<h2>Treasurer</h2>
+				<p>
+					Jay joined the board in the fall of 2011 after being involved as a volunteer counselor at Camp to Belong MA since 2009 and participating in many Sibling Connections fundraising events. He graduated from Boston College in 2004 with a BA in History and went on to earn a Master of Science in Accounting from Boston College in 2005. Following Boston College, Jay joined KPMG’s audit practice working with many large companies such as Dunkin’ Brands, Sarepta Therapeutics, Albany Molecular Research, Inc. and Reebok. He is currently a Senior Manager at KPMG and resides in Milton, MA, with his wife Ashley and his growing family.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>

@@ -2,19 +2,68 @@
 <html>
 <head>
 	<title>Wendy Perlman | Sibling Connections</title>
+	<meta charset="UTF-8">
+  <link rel="icon" href="../../../assets/logos/logo-main.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- JQuery + JQuery UI-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="../../../style/bio-style.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:bold">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto|Rubik:700">
+	<link href="../../../style/header-menu.css" rel="stylesheet">
+	<script type="text/javascript" src="../../../scripts/nav-menu.js"></script>
 </head>
+
 <body>
-	<div class="person">
-		<img id="bio-pic" src="../../../assets/pictures/headshots/Wendy-Perlman.png">
-		<div class="bio-container">
-			<h1 class="name">Wendy Perlman</h1>
-			<h2 class="role"></h2>
-			<p class="description">
-				Wendy joined the board of Sibling Connections in the spring of 2016 after volunteering at Sibling Sundays for two years. She is an attorney with over 30 years of experience working and volunteering in the nonprofit sector. Wendy worked for the Department of Children and Families and later led a consulting business for small nonprofits. While raising her family in Needham, Wendy held a variety of leadership roles as a volunteer for nonprofits focusing on education and child welfare, including Parent Talk and the Needham Education Foundation. Aside from her work with Sibling Connections, Wendy volunteers and serves on the board of the Vilna Shul, a Jewish Cultural Center, on Beacon Hill in Boston.
-			</p>
+	<!--Menu Overlay-->
+  <div id="nav" class="menu">
+   <div class="toggle-menu">
+     <h4 class="menu-word overlay-menu-word" id="o-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1 white"></div>
+       <div class="bar2 white"></div>
+       <div class="bar3 white"></div>
+     </div>
+   </div>
+   <div class="menu-content">
+     <div class="menu-item"><a href="../about.html">About</a></div>
+     <div class="menu-item"><a href="../../programs/programs.html">Programs</a></div>
+     <div class="menu-item"><a href="../../events/events-page.html">Events</a></div>
+     <div class="menu-item"><a href="../../join/join.html">Join</a></div>
+     <div class="menu-item"><a href="../../contact/contact.html">Contact</a></div>
+   </div>
+  </div>
+
+  <!-- Header Bar -->
+  <div class="header-bar">
+   <div class="logo">
+     <img id="sib-logo" src="../../../assets/logos/logo-not-cropped.png" alt="Two people hugging each other, logo">
+   </div>
+   <div class="toggle-menu">
+     <h4 class="menu-word">Menu</h4>
+     <div class="menu-icon">
+       <div class="bar1"></div>
+       <div class="bar2"></div>
+       <div class="bar3"></div>
+     </div>
+   </div>
+  </div>
+
+	<!-- PAGE CONTENT -->
+	<div class="content">
+		<div class="person">
+			<img class="bio-pic" src="../../../assets/pictures/headshots/Wendy-Perlman.png" alt="headshot">
+			<div class="bio-container">
+				<h1>Wendy Perlman</h1>
+				<h2>Board Member</h2>
+				<p>
+					Wendy joined the board of Sibling Connections in the spring of 2016 after volunteering at Sibling Sundays for two years. She is an attorney with over 30 years of experience working and volunteering in the nonprofit sector. Wendy worked for the Department of Children and Families and later led a consulting business for small nonprofits. While raising her family in Needham, Wendy held a variety of leadership roles as a volunteer for nonprofits focusing on education and child welfare, including Parent Talk and the Needham Education Foundation. Aside from her work with Sibling Connections, Wendy volunteers and serves on the board of the Vilna Shul, a Jewish Cultural Center, on Beacon Hill in Boston.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>
