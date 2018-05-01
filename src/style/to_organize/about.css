@@ -154,6 +154,9 @@ body {
 	text-align: center;
 	transition: all 0.5s;
 }
+.overlay a {
+	text-decoration: none;
+}
 .overlay-text h2 {
 	color: #557CF6;
 	font-family: 'Rubik';
